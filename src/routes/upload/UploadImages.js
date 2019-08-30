@@ -76,9 +76,15 @@ class UploadImage extends Component {
                       // fileList={fileList}
                       // onPreview={this.handlePreview}
                       onChange={(val) => this.props.dispatch({
-                        type: `UploadImages/handleImgChange`,
-                        payload: {val}
-                      })}
+                          type: `UploadImages/handleImgChange`,
+                          payload: {val}
+                        }).then(v => {
+                          this.props.dispatch({
+                            type: `UploadImages/change`,
+                            payload: {name: 'imgList',value:v}
+                          })
+                      })
+                      }
                     >
                       {/* {fileList.length >= 8 ? null : uploadButton} */}
                     {/* </Upload> */}

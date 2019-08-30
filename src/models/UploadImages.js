@@ -4,7 +4,7 @@ export default {
     namespace: 'UploadImages',
   
     state: {
-      users:[]
+      imgList:[],
     },
   
     subscriptions: {
