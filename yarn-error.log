@@ -1,0 +1,54 @@
+Arguments: 
+  D:\programs\nodejs\node.exe C:\Users\HQY\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add axios --save
+
+PATH: 
+  C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;D:\programs\nodejs\;D:\programs\Git\cmd;C:\Program Files\PuTTY\;D:\Tool\MongoDB\bin;C:\Ruby25-x64\bin;C:\Users\HQY\AppData\Local\Microsoft\WindowsApps;C:\Users\HQY\AppData\Roaming\npm;D:\programs\nodejs\node_global;D:\Tool\Microsoft VS Code\bin
+
+Yarn version: 
+  1.12.3
+
+Node version: 
+  10.12.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile 'C:\Users\HQY\AppData\Local\Yarn\Cache\v4\npm-ms-2.1.2-d09d1f357b443f493382a8eb3ccd183872ae6009\node_modules\ms\readme.md' -> 'D:\myproject\test\react\dvaDemo\node_modules\@babel\core\node_modules\ms\readme.md'
+
+npm manifest: 
+  {
+    "private": true,
+    "scripts": {
+      "start": "roadhog server",
+      "build": "roadhog build",
+      "lint": "eslint --ext .js src test",
+      "precommit": "npm run lint"
+    },
+    "dependencies": {
+      "antd": "^3.20.3",
+      "axios": "^0.19.0",
+      "babel-plugin-import": "^1.12.0",
+      "dva": "^2.4.1",
+      "react": "^16.2.0",
+      "react-dom": "^16.2.0"
+    },
+    "devDependencies": {
+      "babel-plugin-dva-hmr": "^0.3.2",
+      "eslint": "^4.14.0",
+      "eslint-config-umi": "^0.1.1",
+      "eslint-plugin-flowtype": "^2.34.1",
+      "eslint-plugin-import": "^2.6.0",
+      "eslint-plugin-jsx-a11y": "^5.1.1",
+      "eslint-plugin-react": "^7.1.0",
+      "husky": "^0.12.0",
+      "redbox-react": "^1.4.3",
+      "roadhog": "^2.5.0-beta.4"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
